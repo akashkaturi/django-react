@@ -26,16 +26,3 @@ git config --global alias.co checkout
 git config --global init.defaultBranch main
 git init
 ```
-
-
-```bash
-curl -X POST -H "Content-Type: application/json" -d '{"name": "Akash Katuri", "title": "Matrix","password":"password","description":"Good", "rating":3.5 }' http://localhost:8000/api/movies/ 
-```
-
-```bash
-curl -X PUT -H "Content-Type: application/json" -d '{"name": "Akash Katuri", "title": "Matrix","password":"password","description":"Good", "rating":3.5 }' http://localhost:8000/api/movies/1/
-```
-
-```bash
-curl -X DELETE http://localhost:8000/api/movies/1/
-```
